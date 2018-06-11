@@ -1,0 +1,2514 @@
+/* ------------------------------ GENERAL -------------------------------- */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bodycontainer {
+    border: 1px solid red;
+    height: 6297px;
+    width: 1901px;
+}
+
+#bodycontainercontent {
+    height: 1130px;
+    width: 1918px;
+}
+
+.bodydivs {
+    position: absolute;
+    height: 750px;
+    width: 1901px;
+}
+
+.wastedivs {
+    position: absolute;
+    height: 1000px;
+    width: 1901px;
+}
+
+    #wastediv1 {
+        background-image: url("snowboarder.jpg");
+        background-size: 1300px 700px;
+        background-repeat: no-repeat;
+        background-position: 100px 850px;
+        height: 2000px;
+        width: 1901px;
+        -webkit-clip-path: polygon(55% 0, 80% 0, 30% 100%, 5% 100%);
+        clip-path: polygon(55% 0, 80% 0, 30% 100%, 5% 100%);
+    }
+
+    #wastediv2 {
+        background-image: url("calvin.jpg"), url("motocross.jpg");
+        background-size: 1100px 700px, 850px 500px;
+        background-position: 100px 100px, 640px 1200px;
+        background-repeat: no-repeat, no-repeat;
+        height: 2000px;
+        width: 1901px;
+        margin-top: 1998px;
+        -webkit-clip-path: polygon(5% 0, 30% 0, 80% 100%, 55% 100%);
+        clip-path: polygon(5% 0, 30% 0, 80% 100%, 55% 100%);
+    }
+
+    #wastediv3 {
+        background-image: url("basketball.jpg"), url("golf.jpg");
+        background-size: 1000px 600px, 800px 500px;
+        background-position: 600px 250px, 170px 1300px;
+        background-repeat: no-repeat, no-repeat;
+        height: 2300px;
+        width: 1901px;
+        margin-top: 3996px;
+        -webkit-clip-path: polygon(55% 0, 80% 0, 30% 100%, 5% 100%);
+        clip-path: polygon(55% 0, 80% 0, 30% 100%, 5% 100%);
+    }
+
+    #wastediv4 {
+        background: linear-gradient(49deg, white, white, rgb(255,193,7), rgb(255,193,7), rgb(255,193,7));
+        /* background-image: url("sports8.1.jpg");
+        background-repeat: no-repeat;
+        background-size: 600px 600px; */
+        height: 2000px;
+        width: 1901px;
+        -webkit-clip-path: polygon(0 0, 55% 0, 5% 100%, 0 100%);
+        clip-path: polygon(0 0, 55% 0, 5% 100%, 0 100%);
+    }
+
+    #wastediv5 {
+        background: linear-gradient(50deg, white, white, white, rgb(255,193,7), rgb(255,193,7), rgb(255,193,7), white, white);
+        /* background-image: url("sports8.2.jpg");
+        background-repeat: no-repeat;
+        background-size: 600px 600px;
+        background-position: 1300px 0; */
+        height: 2000px;
+        width: 1901px;
+        -webkit-clip-path: polygon(80% 0, 100% 0, 100% 100%, 30% 100%);
+        clip-path: polygon(80% 0, 100% 0, 100% 100%, 30% 100%);
+    }
+
+    #wastediv6 {
+        background: linear-gradient(136deg, white, white, white, rgb(255,193,7), rgb(255,193,7), rgb(255,193,7), white, white, white);
+        height: 2000px;
+        width: 1901px;
+        margin-top: 1998px;
+        -webkit-clip-path: polygon(0 0, 5% 0, 55% 100%, 0 100%);
+        clip-path: polygon(0 0, 5% 0, 55% 100%, 0 100%);
+    }
+
+    #wastediv7 {
+        background: linear-gradient(137deg, white, white, white, rgb(255,193,7), rgb(255,193,7), rgb(255,193,7), white, white, white);
+        height: 2000px;
+        width: 1901px;
+        margin-top: 1998px;
+        -webkit-clip-path: polygon(30% 0, 100% 0, 100% 100%, 80% 100%);
+        clip-path: polygon(30% 0, 100% 0, 100% 100%, 80% 100%);
+    }
+
+    #wastediv8 {
+        background: linear-gradient(56deg, white, white, rgb(255,193,7), rgb(255,193,7), rgb(255,193,7), white, white, white);
+        height: 2300px;
+        width: 1901px;
+        margin-top: 3996px;
+        -webkit-clip-path: polygon(0 0, 55% 0, 5% 100%, 0 100%);
+        clip-path: polygon(0 0, 55% 0, 5% 100%, 0 100%);
+    }
+
+    #wastediv9 {
+        background: linear-gradient(60deg, white, white, rgb(255,193,7), rgb(255,193,7), rgb(255,193,7), white, white, white);
+        height: 2300px;
+        width: 1901px;
+        margin-top: 3996px;
+        -webkit-clip-path: polygon(80% 0, 100% 0, 100% 100%, 30% 100%);
+        clip-path: polygon(80% 0, 100% 0, 100% 100%, 30% 100%);
+    }
+
+.lines {
+    position: absolute;
+    height: 800px;
+    width: 1px;
+    border: 2px solid silver;
+    z-index: 2;
+}
+
+#line1 {
+    margin-top: 1195px;
+    margin-left: 75px;
+    -webkit-transform: rotate(25.4deg);
+    -moz-transform: rotate(25.4deg);
+    -ms-transform: rotate(25.4deg);
+    -o-transform: rotate(25.4deg);
+    transform: rotate(25.4deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#line2 {
+    margin-top: 1920px;
+    margin-left: 420px;
+    -webkit-transform: rotate(-25.4deg);
+    -moz-transform: rotate(-25.4deg);
+    -ms-transform: rotate(-25.4deg);
+    -o-transform: rotate(-25.4deg);
+    transform: rotate(-25.4deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#line3 {
+    margin-top: 3196px;
+    margin-left: 1540px;
+    -webkit-transform: rotate(-25.4deg);
+    -moz-transform: rotate(-25.4deg);
+    -ms-transform: rotate(-25.4deg);
+    -o-transform: rotate(-25.4deg);
+    transform: rotate(-25.4deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#line4 {
+    margin-top: 4536px;
+    margin-left: 985px;
+    -webkit-transform: rotate(22.6deg);
+    -moz-transform: rotate(22.6deg);
+    -ms-transform: rotate(22.6deg);
+    -o-transform: rotate(22.6deg);
+    transform: rotate(22.6deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#line5 {
+    margin-top: 5402px;
+    margin-left: 100px;
+    -webkit-transform: rotate(22.6deg);
+    -moz-transform: rotate(22.6deg);
+    -ms-transform: rotate(22.6deg);
+    -o-transform: rotate(22.6deg);
+    transform: rotate(22.6deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    z-index: 0;
+}
+
+#line6 {
+    height: 400px;
+    margin-top: 460px;
+    margin-left: 220px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#line7 {
+    height: 400px;
+    margin-top: 960px;
+    margin-left: -20px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#line8 {
+    height: 600px;
+    margin-top: 2110px;
+    margin-left: 1000px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#line9 {
+    height: 600px;
+    margin-top: 2830px;
+    margin-left: 1280px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#line10 {
+    height: 600px;
+    margin-top: 4130px;
+    margin-left: 120px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+
+#line11 {
+    height: 400px;
+    margin-top: 4980px;
+    margin-left: 30px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+
+/* ------------------------------ LOG IN --------------------------------------- */
+
+#logindiv {
+    position: absolute;
+    height: 50px;
+    width: 1901px;
+    border-bottom: 2px solid rgb(255,193,7);
+    z-index: 30;
+}
+
+#logintext {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 415px;
+    color: rgb(255,193,7);
+}
+
+#usernameinput {
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    margin-top: 7px;
+    margin-left: 620px;
+    border-top: 1px solid rgb(255,193,7);
+    border-bottom: 1px solid rgb(255,193,7);
+    border-left: none;
+    border-right: none;
+    color: rgb(255,193,7);
+    padding-left: 30px;
+    padding-right: 30px;
+    background: rgba(255, 193,7 , 0.1);
+    -webkit-clip-path: polygon(6.9% 0, 100% 0%, 93.1% 100%, 0% 100%);
+    clip-path: polygon(6.9% 0, 100% 0%, 93.1% 100%, 0% 100%);
+}
+
+#passwordinput {
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    margin-top: 7px;
+    margin-left: 940px;
+    border-top: 1px solid rgb(255,193,7);
+    border-bottom: 1px solid rgb(255,193,7);
+    border-left: none;
+    border-right: none;
+    color: rgb(255,193,7);
+    padding-left: 30px;
+    padding-right: 30px;
+    background: rgba(255, 193,7 , 0.1);
+    -webkit-clip-path: polygon(6.9% 0, 100% 0%, 93.1% 100%, 0% 100%);
+    clip-path: polygon(6.9% 0, 100% 0%, 93.1% 100%, 0% 100%);
+}
+
+#gobutton {
+    position: absolute;
+    height: 30px;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 1270px;
+    border-top: 1px solid rgb(255,193,7);
+    border-bottom: 1px solid rgb(255,193,7);
+    background: rgba(255,193,7, 0.2);
+    border-left: none;
+    border-right: none;
+    color: rgb(255,193,7);
+    -webkit-clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+}
+
+/* ------------------------------ FEATURES --------------------------------------- */
+
+#featuresdiv {
+    z-index: 1;
+    position: absolute;
+    height: 850px;
+    width: 1901px;
+    background: rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+}
+
+#logo {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    margin-top: -50px;
+    margin-left: -120px;
+    z-index: 40;
+}
+
+#logotext {
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 105px;
+    font-size: 60px;
+    font-weight: 700;
+    color: darkorange;
+}
+
+#signup {
+    position: absolute;
+    border-top: 1px solid rgb(255,193,7);
+    border-bottom: 1px solid rgb(255,193,7);
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    width: 200px;
+    background: rgba(255,193,7, 0.1);
+    color: rgb(255,193,7);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 1680px;
+    z-index: 20;
+    -webkit-clip-path: polygon(7% 0, 100% 0%, 91% 100%, 0% 100%);
+    clip-path: polygon(7% 0, 100% 0%, 91% 100%, 0% 100%);
+}
+
+#featureheader {
+    position: absolute;
+    color: rgb(255,193,7);
+    letter-spacing: 20px;
+    font-size: 70px;
+    margin-top: 690px;
+    margin-left: 657px;
+    z-index: 20;
+}
+
+.featurettedivs {
+    position: absolute;
+    overflow: hidden;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#featurette1 {
+    margin-top: 353px;
+    margin-left: 330px;
+    height: 200px;
+    width: 200px;
+    border-top: 4px solid orange;
+    border-left: 4px solid orange;
+    border-radius: 10px;
+    background: blue;
+    z-index: 7;
+}
+
+#featurette2 {
+    margin-top: 324px;
+    margin-left: 465px;
+    height: 300px;
+    width: 300px;
+    border-top: 4px solid orange;
+    border-left: 4px solid orange;
+    border-radius: 10px;
+    background: green;
+    z-index: 8;
+}
+
+#featurette3 {
+    margin-top: 295px;
+    margin-left: 650px;
+    height: 400px;
+    width: 400px;
+    border-top: 4px solid orange;
+    border-left: 4px solid orange;
+    border-radius: 10px;
+    background: yellow;
+    z-index: 9;
+}
+
+#featurette4 {
+    margin-top: 265px;
+    margin-left: 903px;
+    height: 500px;
+    width: 500px;
+    border: 4px solid orange;
+    border-radius: 10px;
+    background: orange;
+    z-index: 10;
+}
+
+#featurette5 {
+    margin-top: 295px;
+    margin-left: 1154px;
+    height: 400px;
+    width: 400px;
+    border-bottom: 4px solid rgb(255,193,7);
+    border-right: 4px solid rgb(255,193,7);
+    border-radius: 10px;
+    background: yellow;
+    z-index: 9;
+}
+
+#featurette6 {
+    margin-top: 324px;
+    margin-left: 1340px;
+    height: 300px;
+    width: 300px;
+    border-bottom: 4px solid orange;
+    border-right: 4px solid orange;
+    border-radius: 10px;
+    background: green;
+    z-index: 8;
+}
+
+#featurette7 {
+    margin-top: 353px;
+    margin-left: 1470px;
+    height: 200px;
+    width: 200px;
+    border-bottom: 4px solid orange;
+    border-right: 4px solid orange;
+    border-radius: 10px;
+    background: blue;
+    z-index: 7;
+}
+
+.featuredivimages {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#featuredivimage1 {
+    position: absolute;
+    height: 330px;
+    width: 330px;
+    margin-top: -250px;
+    margin-left: -180px;
+}
+
+#featuredivimage2 {
+    position: absolute;
+    height: 530px;
+    width: 550px;
+    margin-top: -320px;
+    margin-left: -210px;
+}
+
+#featuredivimage3 {
+    position: absolute;
+    height: 720px;
+    width: 800px;
+    margin-top: -400px;
+    margin-left: -315px;
+}
+
+#featuredivimage4 {
+    position: absolute;
+    height: 720px;
+    width: 1000px;
+    margin-top: -600px;
+    margin-left: -400px;
+}
+
+#featuredivimage5 {
+    position: absolute;
+    height: 700px;
+    width: 900px;
+    margin-top: -600px;
+    margin-left: -490px;
+}
+
+#featuredivimage6 {
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    margin-top: -300px;
+    margin-left: -250px;
+}
+
+#featuredivimage7 {
+    position: absolute;
+    height: 280px;
+    width: 380px;
+    margin-top: -230px;
+    margin-left: -150px;
+}
+
+/* ------------------------------ MENU --------------------------------------- */
+
+#menudivleft {
+    position: absolute;
+    height: 60px;
+    width: 670px;
+    margin-top: 789px;
+    background: rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    z-index: 15;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 95.8% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 95.8% 100%, 0% 100%);
+}
+
+.menulines {
+    position: absolute;
+    border: 1px solid orange;
+    height: 1px;
+    z-index: 30;
+}
+
+#menuline1 {
+    width: 668px;
+    margin-top: 0px;
+    margin-left: px;
+}
+
+#menuline2 {
+    width: 755px;
+    margin-top: 0px;
+    margin-left: 28px;
+}
+
+#menuline3 {
+    width: 640px;
+    margin-top: 58px;
+    margin-left: 0px;
+}
+
+#menuline4 {
+    width: 783px;
+    margin-top: 58px;
+    margin-left: 0px;
+}
+
+#searchtext {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 690px;
+    color: darkorange;
+    font-size: 25px;
+}
+
+#searchinput {
+    position: absolute;
+    border-top: 1px solid darkorange;
+    border-bottom: 1px solid darkorange;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(255,193,7, 0.1);
+    height: 30px;
+    width: 230px;
+    margin-top: 13px;
+    margin-left: 820px;
+    padding-left: 40px;
+    padding-right: 20px;
+    -webkit-clip-path: polygon(5.5% 0, 100% 0%, 94.5% 100%, 0% 100%);
+    clip-path: polygon(5.5% 0, 100% 0%, 94.5% 100%, 0% 100%);
+}
+
+::-webkit-input-placeholder {
+  color: darkorange;
+}
+::-moz-placeholder {
+  color: darkorange;
+}
+:-ms-input-placeholder {
+  color: darkorange;
+}
+:-moz-placeholder {
+  color: darkorange;
+}
+
+.menubuttons {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    border-top: 1px solid rgb(255,193,7);
+    border-bottom: 1px solid rgb(255,193,7);
+    border-left: none;
+    border-right: none;
+    color: rgb(255,193,7);
+    background: rgba(255, 193,7 , 0.1);
+    -webkit-clip-path: polygon(9.5% 0, 100% 0%, 89.5% 100%, 0% 100%);
+    clip-path: polygon(9.5% 0, 100% 0%, 89.5% 100%, 0% 100%);
+}
+
+#aboutus {
+    margin-left: 155px;
+}
+
+#featuredcontent {
+    margin-left: 420px;
+}
+
+#readnews {
+    margin-left: 55px;
+}
+
+#watchlive {
+    margin-left: 305px;
+}
+
+#seeschedule {
+    margin-left: 550px;
+}
+
+#menumiddiv {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    margin-top: 790px;
+    margin-left: 0px;
+    color: yellow;
+    z-index: 10;
+}
+
+#menudivright {
+    position: absolute;
+    height: 60px;
+    width: 784px;
+    margin-top: 789px;
+    margin-left: 1117px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    -webkit-clip-path: polygon(3.6% 0, 100% 0%, 100% 100%, 0 100%);
+    clip-path: polygon(3.6% 0, 100% 0%, 100% 100%, 0 100%);
+    z-index: 15;
+}
+
+/* ------------------------------ SOCIAL MEDIA --------------------------------------- */
+
+#socialmediadiv {
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    margin-top: 870px;
+    margin-left: -5px;
+    z-index: 5;
+    -webkit-clip-path: polygon(40% 0, 100% 0%, 60% 100%, 0% 100%);
+    clip-path: polygon(40% 0, 100% 0%, 60% 100%, 0% 100%);
+}
+
+#socialmediaheader {
+    text-align: center;
+    color: darkorange;
+    margin-left: 190px;
+}
+
+#post1header {
+    color: rgb(77,77,77);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 220px;
+}
+
+#post2header {
+    color: rgb(77,77,77);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 170px;
+}
+
+#post3header {
+    color: rgb(77,77,77);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+#post4header {
+    color: rgb(77,77,77);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+#post1text {
+    color: rgb(77,77,77);
+    margin-top: 20px;
+    margin-left: 215px;
+    margin-right: 180px;
+}
+
+#post2text {
+    color: rgb(77,77,77);
+    margin-top: 20px;
+    margin-left: 170px;
+    margin-right: 180px;
+}
+
+#post3text {
+    color: rgb(77,77,77);
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 180px;
+}
+
+#post4text {
+    color: rgb(77,77,77);
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 180px;
+}
+
+/* ------------------------------ FEATURED NEWS --------------------------------------- */
+
+#newsfeeddiv {
+    position: absolute;
+    height: 650px;
+    width: 1230px;
+    margin-top: 950px;
+    margin-left: 620px;
+    color: rgb(77,77,77);
+}
+
+#newsfeedheader {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 400px;
+    text-align: center;
+    letter-spacing: 7px;
+    color: darkorange;
+}
+
+#realmadrid {
+    border: 2px solid rgb(77,77,77);
+    border-radius: 10px;
+    position: absolute;
+    height: 140px;
+    width: 240px;
+    margin-top: 25px;
+    margin-left: 330px;
+}
+
+#seahawks {
+    border: 2px solid rgb(77,77,77);
+    border-radius: 10px;
+    position: absolute;
+    height: 140px;
+    width: 240px;
+    margin-top: 215px;
+    margin-left: 240px;
+}
+
+#mayweather {
+    border: 2px solid rgb(77,77,77);
+    border-radius: 10px;
+    position: absolute;
+    height: 140px;
+    width: 240px;
+    margin-top: 405px;
+    margin-left: 150px;
+}
+
+    #article1 {
+        margin-left: 700px;
+    }
+
+    #par1 {
+        margin-top: 40px;
+        margin-left: 600px;
+        margin-right: 20px
+    }
+
+    #readmore1 {
+        margin-left: 1120px;
+    }
+
+    #article2 {
+        margin-left: 640px;
+    }
+
+    #par2 {
+        margin-top: 40px;
+        margin-left: 540px;
+        margin-right: 45px
+    }
+
+    #readmore2 {
+        margin-left: 1080px;
+    }
+
+    #article3 {
+        margin-left: 590px;
+    }
+
+    #par3 {
+        margin-top: 40px;
+        margin-left: 490px;
+        margin-right: 90px
+    }
+
+    #readmore3 {
+        margin-left: 1020px;
+    }
+
+#newsfeedseemoretext {
+    position: absolute;
+    color: rgb(77,77,77);
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 1020px;
+}
+
+/* ------------------------------ LIVE GAMES --------------------------------------- */
+
+#livegamescontainer {
+    margin-top: 1700px;
+    margin-left: -60px
+}
+
+#livegamesheader {
+    position: absolute;
+    color: rgb(255,193,7);
+    font-size: 35px;
+    margin-top: 180px;
+    margin-left: 320px;
+}
+
+.recicon {
+    position: absolute;
+    height: 25px;
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 72px;
+    z-index: 5;
+}
+
+.livegamedivs {
+    position: absolute;
+    height: 240px;
+    width: 220px;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+    #game1 {
+        margin-top: 100px;
+        margin-left: 630px;
+    }
+
+    #game2 {
+        margin-top: 100px;
+        margin-left: 865px;
+    }
+
+    #game3 {
+        margin-top: 100px;
+        margin-left: 1100px;
+    }
+
+    #game4 {
+        margin-top: 100px;
+        margin-left: 1335px;
+    }
+
+    #game5 {
+        margin-top: 100px;
+        margin-left: 1570px;
+    }
+
+    #game6 {
+        margin-top: 290px;
+        margin-left: 745px;
+    }
+
+    #game7 {
+        margin-top: 290px;
+        margin-left: 980px;
+    }
+
+    #game8 {
+        margin-top: 290px;
+        margin-left: 1215px;
+    }
+
+    #game9 {
+        margin-top: 290px;
+        margin-left: 1450px;
+    }
+
+    #game10 {
+        margin-top: 480px;
+        margin-left: 860px;
+    }
+
+    #game11 {
+        margin-top: 480px;
+        margin-left: 1095px;
+    }
+
+    #game12 {
+        margin-top: 480px;
+        margin-left: 1330px;
+    }
+
+.livegamepictures {
+    position: absolute;
+}
+
+#livegamepic1 {
+    height: 250px;
+    width: 400px;
+    margin-top: -5px;
+    margin-left: -20px;
+}
+
+#livegamepic2 {
+    height: 250px;
+    width: 270px;
+    margin-top: -5px;
+    margin-left: -20px;
+}
+
+#livegamepic3 {
+    height: 250px;
+    width: 330px;
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
+#livegamepic4 {
+    height: 250px;
+    width: 270px;
+    margin-top: px;
+    margin-left: -20px;
+}
+
+#livegamepic5 {
+    height: 250px;
+    width: 300px;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#livegamepic6 {
+    height: 250px;
+    width: 390px;
+    margin-top: -5px;
+    margin-left: -40px;
+}
+
+#livegamepic7 {
+    height: 250px;
+    width: 370px;
+    margin-top: -10px;
+    margin-left: -70px;
+}
+
+#livegamepic8 {
+    height: 260px;
+    width: 380px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+#livegamepic9 {
+    height: 250px;
+    width: 320px;
+    margin-top: -5px;
+    margin-left: -20px;
+}
+
+#livegamepic10 {
+    height: 250px;
+    width: 360px;
+    margin-top: -10px;
+    margin-left: -60px;
+}
+
+#livegamepic11 {
+    height: 250px;
+    width: 330px;
+    margin-top: -10px;
+    margin-left: -40px;
+}
+
+#livegamepic12 {
+    height: 250px;
+    width: 400px;
+    margin-top: -10px;
+    margin-left: -100px;
+}
+
+#livegamesseemoretext {
+    position: absolute;
+    color: rgb(77,77,77);
+    font-size: 25px;
+    margin-top: 750px;
+    margin-left: 1680px;
+}
+
+/* ------------------------------ REGIONS --------------------------------------- */
+
+#regionscontainer {
+    margin-top: 2500px;
+}
+
+#regionsheader {
+    position: absolute;
+    color: darkorange;
+    font-size: 35px;
+    margin-top: 200px;
+    margin-left: 580px;
+}
+
+#countriesdiv {
+    position: absolute;
+    height: 700px;
+    width: 800px;
+    margin-top: 230px;
+    margin-left: 1100px; 
+}
+
+#countriesheader {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 110px;
+    color: darkorange;
+}
+
+#countrieslist1 {
+    position: absolute;
+    color: gray;
+    margin-top: 110px;
+    margin-left:100px;
+    font-size: 15px;
+}
+
+#countrieslist2 {
+    position: absolute;
+    color: gray;
+    margin-top: 110px;
+    margin-left: 500px;
+    font-size: 15px;
+}
+
+#countrieslist3 {
+    position: absolute;
+    color: gray;
+    margin-top: 350px;
+    margin-left: 220px;
+    font-size: 15px;
+}
+
+#countrieslist4 {
+    position: absolute;
+    color: gray;
+    margin-top: 460px;
+    margin-left: 580px;
+    font-size: 15px;
+}
+
+.wastecircles {
+    position: absolute;
+    z-index: 1;
+}
+
+#circle1 {
+    height: 140px;
+    width: 140px;
+    margin-top: -122px;
+    margin-left: -371px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+#circle2 {
+    height: 170px;
+    width: 170px;
+    margin-top: -12px;
+    margin-left: -282px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+#circle3 {
+    height: 105px;
+    width: 105px;
+    margin-top: 96px;
+    margin-left: -375px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+#circle4 {
+    height: 190px;
+    width: 190px;
+    margin-top: 170px;
+    margin-left: -291px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+#circle5 {
+    height: 103px;
+    width: 103px;
+    margin-top: 77px;
+    margin-left: 57px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+#circle6 {
+    height: 205px;
+    width: 205px;
+    margin-top: 230px;
+    margin-left: -14px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+#circle7 {
+    height: 89px;
+    width: 89px;
+    margin-top: 163px;
+    margin-left: 135px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+#circle8 {
+    height: 220px;
+    width: 220px;
+    margin-top: 24px;
+    margin-left: 214px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+#circle9 {
+    height: 147px;
+    width: 147px;
+    margin-top: 220px;
+    margin-left: 390px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+#circle10 {
+    height: 103px;
+    width: 103px;
+    margin-top: 372px;
+    margin-left: 462px;
+    border-radius: 100%;
+    border: 1px solid darkorange;
+}
+
+.regiondivs {
+    position: absolute;
+    color: darkorange;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.regionnames {
+    color: rgb(255,193,7);
+    text-align: center;
+}
+
+#continentleft {
+    position: absolute;
+    height: 490px;
+    width: 290px;
+    margin-top: 131px;
+    margin-left: 70px;
+}
+
+#continentright {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 470px;
+    height: 500px;
+    width: 590px;
+}
+
+    #canada {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("vancouver.jpg");
+        background-size: 140px 160px;
+        margin-top: 0px;
+        margin-left: 20px;
+        height: 160px;
+        width: 160px;
+        -webkit-clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+        clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #canadaname {
+            font-size: 25px;
+            margin-top: 70px;
+        }
+
+    #unitedstates {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("newyork.jpg");
+        background-size: 230px 170px;
+        background-position: -30px 0px;
+        margin-top: 110px;
+        margin-left: 110px;
+        height: 190px;
+        width: 190px;
+        -webkit-clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+        clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #unitedstatesname {
+            font-size: 32px;
+            margin-top: 55px;
+        }
+
+    #centralamerica {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("mexicocity.jpg");
+        background-size: 110px 130px;
+        margin-top: 220px;
+        margin-left: 20px;
+        height: 120px;
+        width: 120px;
+        -webkit-clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+        clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #centralamericaname {
+            font-size: 15px;
+            margin-top: 45px;
+        }
+
+    #southamerica {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("rio.jpg");
+        background-size: 230px 200px;
+        background-position: -30px 0px;
+        margin-top: 290px;
+        margin-left: 100px;
+        height: 210px;
+        width: 210px;
+        -webkit-clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+        clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #southamericaname {
+            font-size: 32px;
+            margin-top: 60px;
+        }
+
+    #europe {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("paris.jpg");
+        background-size: 120px 120px;
+        margin-top: 70px;
+        margin-left: 50px;
+        height: 120px;
+        width: 120px;
+        -webkit-clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+        clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #europename {
+            font-size: 18px;
+            margin-top: 50px;
+        }
+
+    #africa {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("gyza.jpg");
+        background-size: 270px 230px;
+        background-position: -20px 0px;
+        margin-top: 220px;
+        margin-left: -25px;
+        height: 230px;
+        width: 230px;
+        -webkit-clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+        clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #africaname {
+            font-size: 41px;
+            margin-top: 90px;
+        }
+
+    #middleeast {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("dubai.jpg");
+        background-size: 130px 100px;
+        margin-top: 160px;
+        margin-left: 130px;
+        height: 100px;
+        width: 100px;
+        -webkit-clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+        clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #middleeastname {
+            font-size: 15px;
+            margin-top: 35px;
+        }
+
+    #russia {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("redsquare.jpg");
+        background-size: 280px 250px;
+        margin-top: 10px;
+        margin-left: 200px;
+        height: 250px;
+        width: 250px;
+        -webkit-clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+        clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #russianame {
+            font-size: 48px;
+            margin-top: 100px;
+        }
+
+    #asia {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("hongkong.jpg");
+        background-size: cover;
+        background-position: -40px 0px;
+        margin-top: 210px;
+        margin-left: 380px;
+        height: 170px;
+        width: 170px;
+        -webkit-clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #asianame {
+            font-size: 42px;
+            margin-top: 60px;
+        }
+
+    #australia {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+        background-image: url("sydney.jpg");
+        background-size: 140px 130px;
+        margin-top: 365px;
+        margin-left: 455px;
+        height: 120px;
+        width: 120px;
+        clip-path: polygon(37% 0, 27% 4%, 29% 17%, 21% 24%, 9% 20%, 4% 30%, 14% 38%, 12% 48%, 0 54%, 2% 64%, 15% 64%, 20% 73%, 14% 85%, 23% 92%, 32% 83%, 42% 87%, 45% 100%, 56% 100%, 58% 87%, 68% 83%, 78% 91%, 87% 84%, 80% 73%, 85% 63%, 98% 63%, 100% 52%, 88% 48%, 86% 37%, 96% 28%, 90% 19%, 78% 24%, 70% 17%, 71% 3%, 61% 0, 55% 11%, 44% 11%);
+    }
+
+        #australianame {
+            font-size: 15px;
+            margin-top: 55px;
+        }
+
+#regionsdroptext {
+    position: absolute;
+    margin-top: 820px;
+    margin-left: 1620px;
+    color: rgb(77,77,77);
+    font-size: 25px;
+}
+
+#regionsdropmenu {
+    position: absolute;
+    height: 30px;
+    width: 250px;
+    margin-top: 870px;
+    margin-left: 1615px;
+    border-top: 1px solid rgb(77,77,77);
+    border-bottom: 1px solid rgb(77,77,77);
+    border-left: none;
+    border-right: none;
+    -webkit-clip-path: polygon(0 0, 88% 0, 100% 100%, 12% 100%);
+    clip-path: polygon(0 0, 88% 0, 100% 100%, 12% 100%);
+}
+
+/* ------------------------------ SCHEDULE --------------------------------------- */
+
+#schedulediv {
+    margin-top: 3700px;
+    height: 900px;
+}
+
+.arrows {
+    position: absolute;
+    height: 40px;
+    width: 30px;
+}
+
+#arrow1 {
+    margin-top: 185px;
+    margin-left: 13px;
+}
+
+#arrow2 {
+    margin-top: 145px;
+    margin-left: 367px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#arrow3 {
+    margin-top: 235px;
+    margin-left: 102px;
+}
+
+#arrow4 {
+    margin-top: 195px;
+    margin-left: 275px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#scheduleheader {
+    position: absolute;
+    color: rgb(255,193,7);
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 1100px;
+}
+
+#monthname {
+    position: absolute;
+    color: darkorange;
+    font-size: 45px;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+#yearnumber {
+    position: absolute;
+    color: darkorange;
+    font-size: 45px;
+    margin-top: 230px;
+    margin-left: 140px;
+}
+
+.daynumbers {
+    position: absolute;
+    color: rgb(77,77,77);
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 62px;
+}
+
+.weekdays {
+    position: absolute;
+    color: darkorange;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 120px;
+}
+
+#sunday {
+    margin-left: 450px;
+}
+
+#monday {
+    margin-left: 630px;
+}
+
+#tuesday {
+    margin-left: 820px;
+}
+
+#wednesday {
+    margin-left: 985px;
+}
+
+#thursday {
+    margin-left: 1190px;
+}
+
+#friday {
+    margin-left: 1405px;
+}
+
+#saturday {
+    margin-left: 1570px;
+}
+
+.days {
+    position: absolute;
+    height: 140px;
+    width: 230px;
+    margin-top: 5px;
+    background: rgba(255, 0, 0, 0.3);
+    -webkit-clip-path: polygon(25% 0, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.rows {
+    position: absolute;
+    height: 170px;
+    width: 1300px;
+}
+
+    #row1 {
+        margin-top: 150px;
+        margin-left: 340px;
+    }
+
+        #day1 {
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        #day2 {
+            margin-top: 5px;
+            margin-left: 200px;
+        }
+
+        #day3 {
+            margin-top: 5px;
+            margin-left: 390px;
+        }
+
+        #day4 {
+            margin-top: 5px;
+            margin-left: 580px;
+        }
+
+        #day5 {
+            margin-top: 5px;
+            margin-left: 770px;
+        }
+
+        #day6 {
+            margin-top: 5px;
+            margin-left: 960px;
+        }
+
+        #day7 {
+            margin-top: 5px;
+            margin-left: 1150px;
+        }
+
+    #row2 {
+        margin-top: 300px;
+        margin-left: 278px;
+    }
+
+        #day8 {
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        #day9 {
+            margin-top: 5px;
+            margin-left: 200px;
+        }
+
+        #day10 {
+            margin-top: 5px;
+            margin-left: 390px;
+        }
+
+        #day11 {
+            margin-top: 5px;
+            margin-left: 580px;
+        }
+
+        #day12 {
+            margin-top: 5px;
+            margin-left: 770px;
+        }
+
+        #day13 {
+            margin-top: 5px;
+            margin-left: 960px;
+        }
+
+        #day14 {
+            margin-top: 5px;
+            margin-left: 1150px;
+        }
+
+    #row3 {
+        margin-top: 450px;
+        margin-left: 216px;
+    }
+
+        #day15 {
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        #day16 {
+            margin-top: 5px;
+            margin-left: 200px;
+        }
+
+        #day17 {
+            margin-top: 5px;
+            margin-left: 390px;
+        }
+
+        #day18 {
+            margin-top: 5px;
+            margin-left: 580px;
+        }
+
+        #day19 {
+            margin-top: 5px;
+            margin-left: 770px;
+        }
+
+        #day20 {
+            margin-top: 5px;
+            margin-left: 960px;
+        }
+
+        #day21 {
+            margin-top: 5px;
+            margin-left: 1150px;
+        }
+
+    #row4 {
+        margin-top: 600px;
+        margin-left: 154px;
+    }
+
+        #day22 {
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        #day23 {
+            margin-top: 5px;
+            margin-left: 200px;
+        }
+
+        #day24 {
+            margin-top: 5px;
+            margin-left: 390px;
+        }
+
+        #day25 {
+            margin-top: 5px;
+            margin-left: 580px;
+        }
+
+        #day26 {
+            margin-top: 5px;
+            margin-left: 770px;
+        }
+
+        #day27 {
+            margin-top: 5px;
+            margin-left: 960px;
+        }
+
+        #day28 {
+            margin-top: 5px;
+            margin-left: 1150px;
+        }
+
+    #row5 {
+        margin-top: 750px;
+        margin-left: 93px;
+    }
+
+        #day29 {
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        #day30 {
+            margin-top: 5px;
+            margin-left: 200px;
+        }
+
+        #day31 {
+            margin-top: 5px;
+            margin-left: 390px;
+        }
+
+        #day32 {
+            margin-top: 5px;
+            margin-left: 580px;
+        }
+
+        #day33 {
+            margin-top: 5px;
+            margin-left: 770px;
+        }
+
+        #day34 {
+            margin-top: 5px;
+            margin-left: 960px;
+        }
+
+        #day35 {
+            margin-top: 5px;
+            margin-left: 1150px;
+        }
+
+/* ------------------------------ UPCOMING --------------------------------------- */
+
+#upcomingeventsdiv {
+    position: absolute;
+    height: 670px;
+    width: 700px;
+    margin-top: 4750px;
+    margin-left: 30px;
+}
+
+#upcomingeventsheader {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 250px;
+    color: darkorange;
+}
+
+.upcomingpars {
+    position: absolute;
+    color: rgb(77,77,77);
+    font-size: 20px;
+}
+
+#upcoming1 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 210px;
+}
+
+#upcoming2 {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 180px;
+}
+
+#upcoming3 {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 150px;
+}
+
+#upcoming4 {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 120px;
+}
+
+#upcoming5 {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 90px;
+}
+
+#upcoming6 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 60px;
+}
+
+#upcoming7 {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 30px;
+}
+
+#upcoming8 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: px;
+}
+
+#upcomingdroptext {
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 250px;
+    color: rgb(77,77,77);
+    font-size: 25px;
+    width: 200px;
+}
+
+/* ------------------------------ SPORTS --------------------------------------- */
+
+#categoriesdiv {
+    margin-top: 4800px;
+    height: 1000px;
+}
+
+#categoriesheader {
+    position: absolute;
+    color: darkorange;
+    font-size: 35px;
+    margin-top: 500px;
+    margin-left: 540px;
+}
+
+.sports {
+    position: absolute;
+    height: 255px;
+    width: 210px;
+    background: rgba(255,127,0, 0.5);
+}
+
+    #soccer {
+        margin-top: 120px;
+        margin-left: 1430px;
+        -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+
+    #football {
+        border-bottom: 3px solid darkorange;
+        border-top: 3px solid darkorange;
+        margin-top: 100px;
+        margin-left: 1550px;
+        -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+    }
+
+    #basketball {
+        border-bottom: 3px solid darkorange;
+        margin-top: 420px;
+        margin-left: 1070px;
+        -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+
+    #baseball {
+        border-top: 3px solid darkorange;
+        margin-top: 400px;
+        margin-left: 1190px;
+        -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+    }
+
+    #hockey {
+        border-bottom: 3px solid darkorange;
+        margin-top: 420px;
+        margin-left: 1310px;
+        -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+
+    #autoracing {
+        border-top: 3px solid darkorange;
+        margin-top: 400px;
+        margin-left: 1430px;
+        -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+    }
+
+    #motoracing {
+        border-bottom: 3px solid darkorange;
+        margin-top: 720px;
+        margin-left: 710px;
+        -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+
+    #fighting {
+        border-top: 3px solid darkorange;
+        margin-top: 700px;
+        margin-left: 830px;
+        -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+    }
+
+    #golf {
+        border-bottom: 3px solid darkorange;
+        margin-top: 720px;
+        margin-left: 950px;
+        -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+
+    #tennis {
+        border-top: 3px solid darkorange;
+        margin-top: 700px;
+        margin-left: 1070px;
+        -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+    }
+
+    #track {
+        border-bottom: 3px solid darkorange;
+        margin-top: 720px;
+        margin-left: 1190px;
+        -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+
+    #swimming {
+        border-top: 3px solid darkorange;
+        margin-top: 700px;
+        margin-left: 1310px;
+        -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+    }
+
+.sportsiconheaders {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(77,77,77);
+}
+
+.sportspngs {
+    
+}
+
+#soccericon {
+    height: 100px;
+    width: 100px;
+    margin-top: 105px;
+    margin-left: 55px;
+}
+
+#footballicon {
+    height: 100px;
+    width: 100px;
+    margin-top: px;
+    margin-left: 60px;
+}
+
+#basketballicon {
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 55px;
+}
+
+#baseballicon {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 56px;
+}
+
+#hockeyicon {
+    height: 160px;
+    width: 160px;
+    margin-top: 40px;
+    margin-left: 38px;
+}
+
+#autoicon {
+    height: 60px;
+    width: 100px;
+    margin-top: -10px;
+    margin-left: 55px;
+}
+
+#motoicon {
+    height: 80px;
+    width: 80px;
+    margin-top: 95px;
+    margin-left: 65px;
+}
+
+#fightingicon {
+    height: 100px;
+    width: 100px;
+    margin-top: -10px;
+    margin-left: 55px;
+}
+
+#golficon {
+    height: 120px;
+    width: 120px;
+    margin-top: 75px;
+    margin-left: 40px;
+}
+
+#tennisicon {
+    height: 110px;
+    width: 110px;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+
+#trackicon {
+    height: 120px;
+    width: 120px;
+    margin-top: 75px;
+    margin-left: 45px;
+}
+
+#swimmingicon {
+    height: 120px;
+    width: 120px;
+    margin-top: -20px;
+    margin-left: 43px;
+}
+
+#categoriesdroptext {
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 1580px;
+    position: absolute;
+    color: rgb(77,77,77);
+    font-size: 25px;
+}
+
+#categoriesdropmenu {
+    position: absolute;
+    margin-top: 840px;
+    margin-left: 1532px;
+    background-color: rgba(255,193,7, 0.2);
+    height: 30px;
+    width: 250px;
+    border-top: 1px solid rgb(77,77,77);
+    border-bottom: 1px solid rgb(77,77,77);
+    border-left: none;
+    border-right: none;
+    -webkit-clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+    clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+}
+
+/* ------------------------------ CONTACT --------------------------------------- */
+
+#contactdiv {
+    position: absolute;
+    height: 400px;
+    width: 1901px;
+    border-top: 1px solid darkorange;
+    margin-top: 5897px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.closers {
+    position: absolute;
+    color: rgb(255,193,7);
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+#discover {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+#connect {
+    margin-top: 20px;
+    margin-left: 880px;
+}
+
+#about {
+    margin-top: 20px;
+    margin-left: 1500px;
+}
+
+.closertext {
+    position: absolute;
+    color: rgb(255,193,7);
+    font-size: 20px;
+}
+
+#marketplace {
+    margin-top: 100px;
+    margin-left: 330px;
+}
+
+#products {
+    margin-top: 140px;
+    margin-left: 330px;
+}
+
+#services {
+    margin-top: 180px;
+    margin-left: 330px;
+}
+
+#support {
+    margin-top: 100px;
+    margin-left: 920px;
+}
+
+#developers {
+    margin-top: 140px;
+    margin-left: 920px;
+}
+
+#businesspartners {
+    margin-top: 180px;
+    margin-left: 920px;
+}
+
+#careers {
+    margin-top: 100px;
+    margin-left: 1520px;
+}
+
+#latestnews {
+    margin-top: 140px;
+    margin-left: 1520px;
+}
+
+#investorrelations {
+    margin-top: 180px;
+    margin-left: 1520px;
+}
+
+.socialmediaicons {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 280px;
+}
+
+#facebook {
+    margin-top: 290px;
+    margin-left: 1400px;
+    height: 100px;
+    width: 100px;
+}
+
+#twitter {
+    margin-top: 302px;
+    margin-left: 1510px;
+    height: 77px;
+    width: 77px;
+}
+
+#instagram {
+    margin-top: 300px;
+    margin-left: 1608px;
+    height: 79px;
+    width: 79px;
+}
+
+#pinterest {
+    margin-top: 299px;
+    margin-left: 1705px;
+    height: 80px;
+    width: 80px;
+}
+
+/* ------------------------------ CONTENT PAGE --------------------------------------- */
+
+#contentmenudiv {
+    position: absolute;
+    height: 65px;
+    width: 1915px;
+    background-color: black;
+}
+
+#page2logo {
+    position: absolute;
+    z-index: 10;
+    height: 130px;
+    width: 130px;
+    margin-top: -32px;
+    margin-left: -40px;
+}
+
+#homelink {
+    position: absolute;
+    color: darkorange;
+    font-size: 20px;
+    margin-left: 50px
+}
+
+#menudivleft2 {
+    position: absolute;
+    margin-left: px;
+}
+
+#menumiddiv2 {
+    position: absolute;
+    margin-left: px;
+}
+
+#menudivright2 {
+    position: absolute;
+    margin-left: 1130px;
+}
+
+#videoscreendiv {
+    position: absolute;
+    height: 1000px;
+    width: 1915px;
+    margin-top: 65px;
+    background-image: url("odell.jpg");
+    background-size: cover;
+}
+
+#suggestionsdiv {
+    position: absolute;
+    height: 1000px;
+    width: 300px;
+    margin-top: 65px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#suggestionsheader {
+    margin-left: 20px;
+    color: orange
+}
+
+#arrowleft {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: -62px;
+    margin-left: 250px;
+}
+
+.suggestionboxes {
+    position: absolute;
+    height: 200px;
+    width: 280px;
+    margin-left: 10px;
+}
+
+    #suggestion1 {
+        background-image: url("suggestion1.jpg");
+        background-size: cover;
+        margin-top: 10px;
+        border: 1px solid darkorange
+    }
+
+    #suggestion2 {
+        background-image: url("suggestion2.jpg");
+        background-size: cover;
+        margin-top: 240px;
+        border: 1px solid darkorange
+    }
+
+    #suggestion3 {
+        background-image: url("suggestion3.jpg");
+        background-size: cover;
+        margin-top: 470px;
+        border: 1px solid darkorange
+    }
+
+    #suggestion4 {
+        background-image: url("suggestion4.jpg");
+        background-size: cover;
+        margin-top: 700px;
+        border: 1px solid darkorange
+    }
+
+.suggestionheadings {
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#chatboxdiv {
+    position: absolute;
+    height: 1000px;
+    width: 300px;
+    margin-top: 65px;
+    margin-left: 1615px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: orange;
+}
+
+#chatheader {
+    margin-left: 80px;
+    color: orange;
+}
+
+#arrowright {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+
+.chatnames {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.chatpars {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px
+}
+
+#urcomment {
+    margin-left: 240px;
+    font-size: 20px;
+}
+
+#urpar {
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+#chattextinput {
+    height: 30px;
+    width: 185px;
+    margin-top: 200px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+#chattextbutton {
+    height: 30px;
+    margin-top: 200px;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid orange;
+    color: orange;
+}
+
+#videocontrols {
+    position: absolute;
+    height: 64px;
+    width: 1915px;
+    margin-top: 1065px;
+    background-color: black
+}
+
+#playbutton {
+    position: absolute;
+    height: 40px;
+    width: 35px;
+    padding: 0px;
+    margin-top: -29px;
+    margin-left: 70px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#volumebutton {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 11px;
+    margin-left: 90px;
+}
+
+#progressbar {
+    position: absolute;
+    height: 1px;
+    width: 1525px;
+    border: 1px solid orange;
+    margin-top: 29px;
+    margin-left: 150px
+}
+
+/* ----------------------------------------------------------------------- */
